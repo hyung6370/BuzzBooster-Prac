@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-BuzzBooster-Prac/Pods-BuzzBooster-Prac-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/BuzzBoosterSDK/BuzzBoosterSDK.framework/BuzzBoosterSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/BuzzRxSwift/BuzzRxSwift.framework/BuzzRxSwift

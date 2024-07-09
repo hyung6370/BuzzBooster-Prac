@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B614B741EF6910EA3325A798 /* Pods_BuzzBooster_Prac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E968A5B054C8A6E2A9DD7B /* Pods_BuzzBooster_Prac.framework */; };
 		F6938A9B2C3B68C800909E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6938A9A2C3B68C800909E19 /* AppDelegate.swift */; };
 		F6938A9D2C3B68C800909E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6938A9C2C3B68C800909E19 /* SceneDelegate.swift */; };
 		F6938A9F2C3B68C800909E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6938A9E2C3B68C800909E19 /* ViewController.swift */; };
-		F6938AA22C3B68C800909E19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F6938AA12C3B68C800909E19 /* Base */; };
 		F6938AA42C3B68C900909E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6938AA32C3B68C900909E19 /* Assets.xcassets */; };
 		F6938AA72C3B68C900909E19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F6938AA62C3B68C900909E19 /* Base */; };
+		F6938AAF2C3B69E800909E19 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6938AAE2C3B69E800909E19 /* Coordinator.swift */; };
+		F6938AB12C3B6DEE00909E19 /* OptInMarketingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6938AB02C3B6DEE00909E19 /* OptInMarketingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA14C87D7FDB8EE3B53C6F9A /* Pods-BuzzBooster-Prac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzBooster-Prac.release.xcconfig"; path = "Target Support Files/Pods-BuzzBooster-Prac/Pods-BuzzBooster-Prac.release.xcconfig"; sourceTree = "<group>"; };
+		D3E968A5B054C8A6E2A9DD7B /* Pods_BuzzBooster_Prac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzBooster_Prac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E953FD59E7731664D7A518F4 /* Pods-BuzzBooster-Prac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzBooster-Prac.debug.xcconfig"; path = "Target Support Files/Pods-BuzzBooster-Prac/Pods-BuzzBooster-Prac.debug.xcconfig"; sourceTree = "<group>"; };
 		F6938A972C3B68C800909E19 /* BuzzBooster-Prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BuzzBooster-Prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6938A9A2C3B68C800909E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6938A9C2C3B68C800909E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6938A9E2C3B68C800909E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6938AA12C3B68C800909E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6938AA32C3B68C900909E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6938AA62C3B68C900909E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6938AA82C3B68C900909E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6938AAE2C3B69E800909E19 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F6938AB02C3B6DEE00909E19 /* OptInMarketingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptInMarketingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B614B741EF6910EA3325A798 /* Pods_BuzzBooster_Prac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13874409E49416F5D84B04B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E953FD59E7731664D7A518F4 /* Pods-BuzzBooster-Prac.debug.xcconfig */,
+				AA14C87D7FDB8EE3B53C6F9A /* Pods-BuzzBooster-Prac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8235530E25229A4A82ED88AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968A5B054C8A6E2A9DD7B /* Pods_BuzzBooster_Prac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6938A8E2C3B68C800909E19 = {
 			isa = PBXGroup;
 			children = (
 				F6938A992C3B68C800909E19 /* BuzzBooster-Prac */,
 				F6938A982C3B68C800909E19 /* Products */,
+				13874409E49416F5D84B04B6 /* Pods */,
+				8235530E25229A4A82ED88AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +85,11 @@
 				F6938A9A2C3B68C800909E19 /* AppDelegate.swift */,
 				F6938A9C2C3B68C800909E19 /* SceneDelegate.swift */,
 				F6938A9E2C3B68C800909E19 /* ViewController.swift */,
-				F6938AA02C3B68C800909E19 /* Main.storyboard */,
+				F6938AB02C3B6DEE00909E19 /* OptInMarketingViewController.swift */,
 				F6938AA32C3B68C900909E19 /* Assets.xcassets */,
 				F6938AA52C3B68C900909E19 /* LaunchScreen.storyboard */,
 				F6938AA82C3B68C900909E19 /* Info.plist */,
+				F6938AAE2C3B69E800909E19 /* Coordinator.swift */,
 			);
 			path = "BuzzBooster-Prac";
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6938AAB2C3B68C900909E19 /* Build configuration list for PBXNativeTarget "BuzzBooster-Prac" */;
 			buildPhases = (
+				7D4064426A9F949652DE016A /* [CP] Check Pods Manifest.lock */,
 				F6938A932C3B68C800909E19 /* Sources */,
 				F6938A942C3B68C800909E19 /* Frameworks */,
 				F6938A952C3B68C800909E19 /* Resources */,
+				87C42D4B518418A36CE969DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +156,69 @@
 			files = (
 				F6938AA42C3B68C900909E19 /* Assets.xcassets in Resources */,
 				F6938AA72C3B68C900909E19 /* Base in Resources */,
-				F6938AA22C3B68C800909E19 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D4064426A9F949652DE016A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuzzBooster-Prac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C42D4B518418A36CE969DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuzzBooster-Prac/Pods-BuzzBooster-Prac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuzzBooster-Prac/Pods-BuzzBooster-Prac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuzzBooster-Prac/Pods-BuzzBooster-Prac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6938A932C3B68C800909E19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6938AAF2C3B69E800909E19 /* Coordinator.swift in Sources */,
 				F6938A9F2C3B68C800909E19 /* ViewController.swift in Sources */,
 				F6938A9B2C3B68C800909E19 /* AppDelegate.swift in Sources */,
 				F6938A9D2C3B68C800909E19 /* SceneDelegate.swift in Sources */,
+				F6938AB12C3B6DEE00909E19 /* OptInMarketingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F6938AA02C3B68C800909E19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6938AA12C3B68C800909E19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F6938AA52C3B68C900909E19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +267,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +330,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +351,7 @@
 		};
 		F6938AAC2C3B68C900909E19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E953FD59E7731664D7A518F4 /* Pods-BuzzBooster-Prac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,7 +362,6 @@
 				INFOPLIST_FILE = "BuzzBooster-Prac/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +379,7 @@
 		};
 		F6938AAD2C3B68C900909E19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA14C87D7FDB8EE3B53C6F9A /* Pods-BuzzBooster-Prac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,7 +390,6 @@
 				INFOPLIST_FILE = "BuzzBooster-Prac/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

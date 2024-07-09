@@ -1,0 +1,6 @@
+framework module Pods_BuzzBooster_Prac {
+  umbrella header "Pods-BuzzBooster-Prac-umbrella.h"
+
+  export *
+  module * { export * }
+}
